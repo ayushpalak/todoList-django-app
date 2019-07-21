@@ -21,7 +21,7 @@ open http://127.0.0.1:8000   -> create a to do list and submit
 
 # Provided search and filtering with required fields in the admin interface.
 
-# Admin is able to download the bulk entries of to-do list in csv format from
-Django Admin Interface.
+# Admin is able to download the bulk entries of to-do list in csv format from Django Admin Interface.
+
 
 # Created a bash script that makes a curl request to get all the todolist items.
