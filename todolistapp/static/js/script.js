@@ -122,11 +122,11 @@ $(document).ready(function() {
     console.log("Completed", Completed);
 
     var list_html =
-      '<div style="margin-bottom: 1%;padding: 2%;background-color: #0088f5;color:white;padding:1%;font-size: large;" data-toggle="collapse" data-target="#' +
+      '<div style="border:1px solid black; margin-bottom: 1%;padding: 2%;background-color: white;color:black;padding:1%;font-size: large;" data-toggle="collapse" data-target="#' +
       id +
       '">' +
       title +
-      "</div>\
+      "<span style=\"float:right;\"class=\"glyphicon glyphicon-chevron-down\"></span></div>\
             <div id=" +
       id +
       ' class="collapse">\
@@ -236,18 +236,16 @@ $(document).ready(function() {
       '>\
             <div class="form-group"> \
                 <label for="title">Title:</label>\
-                <textarea type="text" class="form-control" id="title' +
+                <textarea type="text" placeholder="enter title. ." class="form-control" id="title' +
       id +
       '">' +
-      title +
       '</textarea>\
             </div>\
             <div class="form-group"> \
                 <label for="description">Description:</label>\
-                <textarea type="text" class="form-control" id="description' +
+                <textarea type="text" placeholder="enter description. ." class="form-control" id="description' +
       id +
-      '">' +
-      description +
+      '">'  +
       '</textarea>\
             </div>\
             <div class="form-group">\

@@ -68,7 +68,7 @@ def create_data(request):
 @require_http_methods(["GET"])
 @csrf_exempt
 def read_data(request):
-    data = list(Todomodel.objects.filter(Is_deleted=0).values('Title','Description','Created_at','Modified_at','Complete_by','Status'))[::-1]
+    data = list(Todomodel.objects.filter(Is_deleted=0).values('id','Title','Description','Created_at','Modified_at','Complete_by','Status'))[::-1]
     return JsonResponse(data,safe=False)
 
 
