@@ -1,0 +1,27 @@
+.collapse.in {
+  display: block;
+  padding: 1%;
+}
+
+label {
+  padding: 1%;
+}
+
+.form-group {
+  margin-bottom: 1%;
+}
+
+#create-btn {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#create-div,
+#create-btn-div {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
